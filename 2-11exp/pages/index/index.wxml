@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="box">
+  <view class='title'>利用循环语句求和</view>
+  <view>
+    <input placeholder='请输入本金' type='number' bindblur='Num1'></input>
+    <input placeholder='请输入利率' type='number' bindblur='Num2'></input>
+  </view>
+  <view>复利计息情况下五年后得到：{{sum}}</view>
+  <button type='warn' bindtap='calc'>开始计算</button>
+</view>
+<view style='text-align:center;color:blue;'>
+  <view>电科19-2</view>
+  <view>201923010209</view>
+  <view>胡冰寒</view>
+</view>
